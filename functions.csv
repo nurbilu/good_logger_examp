@@ -1,0 +1,6 @@
+functions
+1+1
+print("hello world") 
+2-1
+len("hello world")
+bool(1)

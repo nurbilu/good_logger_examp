@@ -1,0 +1,23 @@
+2024-05-07 12:30:17,551 - DEBUG - Calling wrapper with args: (10, 5), kwargs: {}
+2024-05-07 12:30:17,551 - DEBUG - wrapper returned: 15
+2024-05-07 12:30:17,552 - DEBUG - Calling wrapper with args: (10, 5), kwargs: {}
+2024-05-07 12:30:17,552 - DEBUG - wrapper returned: 5
+2024-05-07 12:30:17,552 - DEBUG - Calling wrapper with args: (10, 5), kwargs: {}
+2024-05-07 12:30:17,552 - DEBUG - wrapper returned: 50
+2024-05-07 12:30:17,553 - DEBUG - Calling wrapper with args: ('10', 5), kwargs: {}
+2024-05-07 12:30:17,553 - ERROR - Error in wrapper: All arguments must be either integers or floats.
+2024-05-07 12:31:00 | ic| 'RETURNED', func.__name__: 'wrapper', 'result:', result: 15
+2024-05-07 12:31:00 | ic| 'RETURNED', func.__name__: 'wrapper', 'result:', result: 5
+2024-05-07 12:31:00 | ic| 'RETURNED', func.__name__: 'wrapper', 'result:', result: 50
+2024-05-07 12:31:00 | ic| "ERROR in": 'ERROR in'
+    func.__name__: 'wrapper'
+    "exception:": 'exception:'
+    str(e): 'All arguments must be either integers or floats.'
+2024-05-07 12:33:53,777 - DEBUG - Calling wrapper with args: (10, 5), kwargs: {}
+2024-05-07 12:33:53,777 - DEBUG - wrapper returned: 15
+2024-05-07 12:33:53,777 - DEBUG - Calling wrapper with args: (10, 5), kwargs: {}
+2024-05-07 12:33:53,777 - DEBUG - wrapper returned: 5
+2024-05-07 12:33:53,777 - DEBUG - Calling wrapper with args: (10, 5), kwargs: {}
+2024-05-07 12:33:53,777 - DEBUG - wrapper returned: 50
+2024-05-07 12:33:53,777 - DEBUG - Calling wrapper with args: ('10', 5), kwargs: {}
+2024-05-07 12:33:53,777 - ERROR - Error in wrapper: All arguments must be either integers or floats.
